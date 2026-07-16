@@ -75,6 +75,14 @@ Advanced editing:
 - Verify desktop and mobile layouts with screenshots before merging UI changes.
 - Do not hide missing engine support behind fake controls.
 
+## Repository model
+
+- This repo is the standalone CueLab front door, not a subdirectory of
+  `beatforge-axi`.
+- Keep UI, build, and browser-test changes here.
+- Keep engine contracts, job runtime, and server changes in `beatforge-axi`.
+- Review CueLab changes as their own PR against this repo's `main` branch.
+
 ## Planned implementation
 
 Expected stack:
